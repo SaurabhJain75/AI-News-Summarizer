@@ -1,13 +1,14 @@
-from tavily imort TavilyClient
+from tavily import TavilyClient
 from langchain_core.prompts import ChatPromptTemplate
+from src.langgraphagenticai.state.state import State
 
 class AI_News_Node:
     def __init__(self, llm):
         """
         Initialize the AI News Node with API keys for Tavily and Groq
         """
-        self.llm = llm
         self.tavily= TavilyClient()
+        self.llm = llm
         # this is used to capture various steps in the file so that later can be use for steps shown
         self.state= {}
         
@@ -21,7 +22,24 @@ class AI_News_Node:
         Returns:
             dict: Updated state with 'news_data' key containing the fetched news.
         """
+        frequency= state["messages"][0].content.lower()
+        print(frequency)
+        self.state['frequency']= frequency
+        time_range_map= {'daily':'d', 'weekly':'w', 'monthly':'m'}
+        days_map= {'daily':1, 'weekly':7, 'monthly':30}
         
+        response= self.tavily.search(
+            query= "Top Artificial Intelligence (AI) technology news India and globally",
+            topic= "news",
+            time_range= time_range_map[frequency],
+            include_answer= "advanced",
+            max_results= 20,
+            days= days_map[frequency],
+        )
+        
+        state['news_data'] = response.get('results',[])
+        self.state['news_data']= state['news_data']
+        return state
         
     def summarize_news(self, state: dict) -> dict:
         """
@@ -52,15 +70,15 @@ class AI_News_Node:
             for item in news_items
         ])
         
-        response= self.llm(prompt_template.format(articles=articles_str))
-        state["summary"]= response.content
-        self.state["summary"]= state["summary"]
+        response = self.llm.invoke(prompt_template.format(articles=articles_str))
+        state['summary'] = response.content
+        self.state['summary'] = state['summary']
         return self.state
     
     def save_results(self, state: dict) -> dict:
         frequency= self.state["frequency"]
         summary= self.state["summary"]
-        filename= f"ai_news/{frequency}_summary.md"
+        filename= f"./ai_news/{frequency}_summary.md"
         with open(filename, "w") as f:
             f.write(f"# {frequency.capitalize()} AI News Summary\n\n")
             f.write(summary)

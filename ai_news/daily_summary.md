@@ -1,0 +1,22 @@
+# Daily AI News Summary
+
+### 2026-04-22
+- [OpenAI partners with Infosys to bring AI tools to more businesses](https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/)
+- [Campus to Career Summit 2026 aims to build India's AI-ready workforce](https://digitallearning.eletsonline.com/2026/04/campus-to-career-summit-2026-building-indias-ai-ready-workforce/)
+- [Palantir's controversial manifesto raises concerns over UK contracts](https://www.startupecosystem.ca/news/palantirs-controversial-manifesto-raises-concerns-over-uk-contracts/)
+- [Google Cloud announces $750 million fund to support AI tools](https://www.mediapost.com/publications/article/414512/threads-live-group-chat-feature-aims-for-real-tim.html)
+- [AI & Tech Brief: Beijing tightens grip on AI startups](https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/04/22/ai-tech-brief-beijing-tightens-grip-ai-startups/)
+- [Clarifai deletes 3 million OKCupid photos following FTC settlement](https://www.startupecosystem.ca/news/clarifai-deletes-3-million-okcupid-photos-following-ftc-settlement/)
+- [The Week in Tech: AI upending the B2B buyer journey and Apple's new CEO](https://www.marketingweek.com/week-in-tech-ai-b2b-apple-ceo/)
+- [Procurement AI drives measurable gains, but faces trust and workforce challenges](https://www.crmbuyer.com/story/procurement-ai-hits-trust-wall-as-workforce-readiness-falls-behind-180290.html)
+- [Humans in the loop can help control AI's inaccuracies](https://www.mobihealthnews.com/video/humans-loop-can-help-control-ais-inaccuracies)
+- [Microsoft Advertising to make AI Max for Search campaigns available](https://www.mediapost.com/publications/article/414478/microsoft-boosts-agentic-web-ad-visibility.html)
+- [Law firms form global legal tech alliance to collaborate on AI innovation](https://www.law.com/americanlawyer/2026/04/22/if-sullivan--cromwell-can-file-an-ai-contaminated-brief-is-risk-proof-use-of-the-technology-even-possible/)
+- [SpaceX says it can buy AI coding tool Cursor for $60 billion later this year](https://www.nbcnews.com/tech/tech-news/spacex-says-can-buy-ai-coding-tool-cursor-60b-later-year-rcna341455)
+- [EQT launches AI infrastructure strategy to invest in data centers and chip ecosystems](https://www.privateequitywire.co.uk/eqt-launches-ai-infrastructure-strategy/)
+- [Redwood Materials restructures to focus on energy storage](https://www.startupecosystem.ca/news/redwood-materials-restructures-to-focus-on-energy-storage/)
+- [Rishi Sunak says eliminate jobs tax to compete with AI](https://www.bbc.com/news/articles/cvg07x4rejdo)
+- [Rockwell Automation hosts ROKLive Jakarta 2026 to explore industrial automation and digital transformation](https://www.manilatimes.net/2026/04/22/tmt-newswire/pr-newswire/rockwell-automation-brings-industry-leaders-together-at-roklive-jakarta-2026-shaping-the-future-of-industrial-operations/2325682)
+- [AcuityMD raises $80 million to bolster AI in the medtech industry](https://www.fiercebiotech.com/medtech/acuitymd-gets-80m-help-bolster-ai-medtech-industry-commercial-teams)
+- [SpaceX says it can buy AI coding tool Cursor for $60 billion later this year](https://www.greenwichtime.com/business/article/spacex-says-it-can-buy-ai-coding-tool-cursor-for-22219960.php)
+- [Microsoft to integrate Anthropic's Mythos into its security development program](https://www.itnews.com.au/news/microsoft-to-integrate-anthropics-mythos-into-its-security-development-program-625295)
